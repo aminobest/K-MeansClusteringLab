@@ -54,4 +54,4 @@ jupyter notebook
 
 ## Tasks
 
-The notebooks contain tasks that you need to complete for this lab. 
+The notebook contains tasks that you need to complete for this lab. 
