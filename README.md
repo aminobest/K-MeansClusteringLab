@@ -40,7 +40,6 @@ The notebook expects the data file to be named `data.csv` and located in the `in
 
 ## Usage
 
-To run the notebook, open it in Jupyter Notebook or any other Python notebook environment, and run the cells
 
 1. Launch Jupyter Notebook by opening a terminal (or command prompt in Windows), navigating to the directory containing the notebook, and running the command:
 
