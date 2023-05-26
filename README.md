@@ -1,8 +1,8 @@
 # Lab on Clustering using the K-Means algorithm
 
-This repository contains a Python notebook for analyzing developers' behaviour based on data recorded during a programming task. The notebook imports, visualizes, and clusters developers' data based on various features. 
 
- - objective conduct your own data analysis using an existing implementation of the K-Means clustering Algorithm 
+ - **Objective**: Conduct your own data analysis using an existing implementation of the K-Means clustering Algorithm 
+ - **Context**: Analyying the behavioural data of developers recorded during a programming task
 
 ## Prerequisites
 
@@ -20,6 +20,12 @@ These can be installed using pip:
 pip install pandas numpy matplotlib sklearn seaborn
 ```
 
+To run the notebook, you also need to have Jupyter Notebook installed. If not already installed, it can be installed using pip:
+
+```
+pip install notebook
+```
+
 ## Data
 
 The data for this notebook should be in CSV format, with the following columns:
@@ -34,38 +40,19 @@ The notebook expects the data file to be named `data.csv` and located in the `in
 
 ## Usage
 
-To run the notebook, open it in Jupyter Notebook or any other Python notebook environment, and run all cells.
+To run the notebook, open it in Jupyter Notebook or any other Python notebook environment, and run the cells
 
-The notebook will perform the following steps:
+1. Launch Jupyter Notebook by opening a terminal (or command prompt in Windows), navigating to the directory containing the notebook, and running the command:
 
-1. Import the data from `data.csv`.
-2. Visualize different combinations of features with scatter plots.
-3. Perform K-Means clustering on different combinations of features.
-4. Visualize the clusters in a 2D scatter plot.
-5. (User-provided) Reflect on the clustering results and hypotheses about the data.
-
-## Configuration
-
-The notebook provides options for exploring different combinations of features and the number of clusters for K-Means clustering. These options can be changed directly in the notebook.
-
-For example, to change the number of clusters, modify the `k` variable in the `KMeans` clustering cell:
-
-```python
-k = 3 # Change this to the desired number of clusters
+```bash
+jupyter notebook
 ```
 
-To change the features used for clustering, modify the `features_set` variable:
+2. In the Jupyter Notebook web interface, click on the notebook file (`K-MeansClustringNotebook.ipynb`) to open it.
 
-```python
-features_set = ['Error Frequency', 'Breakpoint Usage'] # Change this to the desired set of features
-```
+3. Run the cells in the notebook sequentially 
 
-## Further Reflections
 
-After running the notebook, users are encouraged to reflect on the clustering results. The notebook is structured in a manner that encourages an analytical mindset, opening up for further interpretations and hypotheses about the data.
+## Tasks
 
-## About this Analysis
-
-The ultimate aim of this notebook is to understand developer behavior better. By understanding the behavioral trends among developers, we can facilitate more productive and error-free coding environments.
-
-By utilizing clustering, we allow for an exploratory approach to data analysis. This notebook does not impose strict interpretations but rather encourages users to reflect and derive their own insights based on the clustering results.
+The notebooks contain tasks that you need to complete for this lab. 
